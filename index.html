@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>RA Global Solutions</title>
+    <meta name="description" content>
+    <meta name="keywords" content>
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        .logo-container {
+            width: 100px;
+            /* Adjust as needed */
+            height: 100px;
+            /* Adjust as needed */
+            border-radius: 50%;
+            background-color: white;
+            /* Background for the circle */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            /* Hide overflow to keep logo within circle */
+            position: relative;
+            /* Positioning context for absolute children */
+        }
+        
+        .logo-circle {
+            width: 80%;
+            /* Fill the container, adjust as needed */
+            height: auto;
+            /* Maintain aspect ratio */
+            border-radius: 50%;
+            /* Make the logo circular */
+            position: absolute;
+            /* Positioning for rotation */
+            animation: rotate 6s linear infinite;
+            /* Animation for rotation */
+        }
+        
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+                /* Start position */
+            }
+            100% {
+                transform: rotate(360deg);
+                /* End position */
+            }
+        }
+        
+        .info-section {
+            padding: 50px 0;
+            background-color: #f8f9fa;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+        
+        .info-item {
+            margin-bottom: 30px;
+        }
+        
+        .info-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        
+        .info-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        
+        .highlight {
+            font-weight: bold;
+            color: #ffce00;
+            /* Choose a color that contrasts well */
+            background-color: #1e1e1e;
+            /* Optional: Add a subtle background */
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+            <div class="logo-container">
+                <img src="assets/img/logo.png" class="logo-circle" alt="RA Global Solutions Logo" style="width: 100px;height: 100px;background-color: white;border-radius: 50%;">
+            </div>
+            <!-- <img src="assets/img/logo.png" class="logo-circle" alt="RA Global Solutions Logo"> -->
+            <a href="index.html" class="logo d-flex align-items-left">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" style="width: 70px; height: 100px;"> -->
+                <h1 class="sitename" style="margin-right: 350px;">RA Global Solutions
+                </h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>-->
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+
+            <img src="assets/img/hero-bg.png" alt data-aos="fade-in">
+
+            <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>RA Global Solutions</h2>
+                        <p>We are a team of experts delivering innovative IT & ITES solutions,
+                            <span class="highlight">Revenue Cycle Management</span>, consultancy, and end-to-end business services.</p>
+                        <a href="#about" class="btn-get-started">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /Hero Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>About</h2>
+                <p><span>Learn More</span> <span class="description-title">About Us<br></span></p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="content col-xl-5 d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Innovative IT and ITES Solutions</h3>
+                        <p>
+                            RA Global Solutions, established in October 2022, is a leading provider of innovative IT and IT-enabled services (ITES). We are committed to helping businesses navigate the digital landscape with comprehensive solutions ranging from web and app development
+                            to medical billing, knowledge process outsourcing (KPO), and customer support.
+                        </p>
+                        <p>
+                            Our internal projects include solutions like the
+                            <strong>Billing Management System</strong>, designed to streamline business operations and improve financial management processes.
+                        </p>
+                        <p>
+                            We are headquartered at
+                            <strong>Nellore</strong>, where our team works on creating cutting-edge technologies and offering exceptional customer service.
+                        </p>
+                        <a href="#services" class="about-btn align-self-center align-self-xl-start"><span>Services</span>
+                                <i class="bi bi-chevron-right"></i></a>
+                    </div>
+                    <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
+                        <div class="row gy-4">
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-laptop"></i>
+                                <h4><a href="#information-technology" class="stretched-link">Information
+                                            Technology</a></h4>
+                                <p>We provide cutting-edge web, app, and product development services to help businesses achieve their digital goals.
+                                </p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-mortarboard"></i>
+                                <h4><a href="#" class="stretched-link">ITES
+                                            & KPO Services</a></h4>
+                                <p>Our ITES services include knowledge process outsourcing (KPO), medical billing and coding, BPO, and customer service projects, designed to enhance operational efficiency.</p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-briefcase"></i>
+                                <h4><a href="#" class="stretched-link">Training and
+                                            Placement Assistance</a></h4>
+                                <p>We offer expert consultancy and job placement assistance for both IT and non-IT sectors, focusing on career growth and professional development.</p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-easel"></i>
+                                <h4><a href="#" class="stretched-link">Internship</a></h4>
+                                <p>Our internship programs provide IT guidance, hands-on experience, and certification, empowering professionals with industry-relevant skills.</p>
+                            </div>
+                            <!-- Icon-Box -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About Section -->
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Services</h2>
+                <p>Check Our <span class="description-title">Services</span></p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4">
+                    <!-- IT & Web Development -->
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-code-slash icon"></i></div>
+                            <h4><a href="#information-technology" class="stretched-link">Information
+                                        Technology</a></h4>
+                            <p>We offer comprehensive IT services, including web and app development, product development, and custom software solutions tailored to your business needs.</p>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <!-- ITES & KPO/BPO Services -->
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-headset icon"></i></div>
+                            <h4><a href="#ites" class="stretched-link">ITES &
+                                        KPO/BPO</a></h4>
+                            <p>Our ITES offerings include KPO (knowledge process outsourcing), BPO, medical billing, coding, and customer service projects aimed at improving operational efficiency.</p>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <!-- Placement & Consultancy -->
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-person-check icon"></i></div>
+                            <h4><a href="#training-placement" class="stretched-link">Training and
+                                        Placement Assistance</a></h4>
+                            <p>We provide professional consultancy services and job placement assistance for both IT and non-IT sectors, offering 100% support and career guidance.</p>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <!-- Internship & Training -->
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item position-relative">
+                            <div class="icon"><i class="bi bi-award icon"></i></div>
+                            <h4><a href class="stretched-link">Internship</a></h4>
+                            <p>Our internship programs provide hands-on training, IT guidance, and certification. We prepare professionals for the job market with industry-relevant skills and experience.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+                </div>
+            </div>
+        </section>
+        <!-- /Services Section -->
+
+        <!-- Features Section -->
+        <section id="features" class="features section">
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="features-item">
+                            <i class="bi bi-code-slash" style="color: #ffbb2c;"></i>
+                            <h3><a href="#" class="stretched-link">Web
+                                        Development</a></h3>
+                        </div>
+                    </div>
+                    <!-- End Feature Item -->
+
+                    <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="features-item">
+                            <i class="bi bi-phone" style="color: #5578ff;"></i>
+                            <h3><a href="#" class="stretched-link">App
+                                        Development</a></h3>
+                        </div>
+                    </div>
+                    <!-- End Feature Item -->
+
+                    <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="features-item">
+                            <i class="bi bi-briefcase" style="color: #e80368;"></i>
+                            <h3><a href="#" class="stretched-link">End-to-End
+                                        Revenue Cycle Management
+                                        Services</a></h3>
+                        </div>
+                    </div>
+                    <!-- End Feature Item -->
+
+                    <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
+                        <div class="features-item">
+                            <i class="bi bi-headset" style="color: #ffbb2c;"></i>
+                            <h3><a href="#" class="stretched-link">International
+                                        Voice & Non-Voice Services</a></h3>
+                        </div>
+                    </div>
+                    <!-- End Feature Item -->
+
+                    <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
+                        <div class="features-item">
+                            <i class="bi bi-laptop" style="color: #e361ff;"></i>
+                            <h3><a href="#" class="stretched-link">Product
+                                        Management</a></h3>
+                        </div>
+                    </div>
+                    <!-- End Feature Item -->
+
+                    <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="features-item">
+                            <i class="bi bi-mortarboard" style="color: #5578ff;"></i>
+                            <h3><a href="#" class="stretched-link">Consultancy</a></h3>
+                        </div>
+                    </div>
+                    <!-- End Feature Item -->
+
+                    <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
+                        <div class="features-item">
+                            <i class="bi bi-award" style="color: #e80368;"></i>
+                            <h3><a href="#" class="stretched-link">Internship
+                                        Program Trainee</a></h3>
+                        </div>
+                    </div>
+                    <!-- End Feature Item -->
+
+                </div>
+            </div>
+        </section>
+        <!-- /Features Section -->
+
+        <!-- Call To Action Section -->
+        <section id="call-to-action" class="call-to-action section dark-background">
+            <img src="https://www.eminenture.com/blog/wp-content/uploads/2019/04/WHAT-ARE-KNOWLEDGE-PROCESS-OUTSOURCING-KPO-ITS-BENEFITS.jpg" alt="Call to Action Background">
+
+            <div class="container">
+                <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-xl-10">
+                        <div class="text-center">
+                            <h3>Your Gateway to Success in IT and KPO</h3>
+                            <p>Unlock your potential with our comprehensive training and placement assistance in IT and KPO sectors. Whether you are looking for internship opportunities or expert consultancy, we provide 100% support to help you excel in
+                                your career.</p>
+                            <a class="cta-btn" href="#services">Explore Our
+                                    Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Call To Action Section -->
+
+        <!-- Information Technology Section -->
+        <section id="information-technology" class="about info section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Information Technology</h2>
+                <p><span>Learn More</span> <span class="description-title">Information
+                Technology<br></span></p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-xl-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="row gy-4">
+
+                            <!-- Internal Projects -->
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-gear-fill"></i>
+                                <h4><a href="#" class="stretched-link">Internal Projects</a></h4>
+                                <p>We specialize in launching and managing our own internal projects, including applications like Billing Software Management, designed to streamline and optimize financial processes for businesses.</p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- Web Development -->
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-code-slash"></i>
+                                <h4><a href="#" class="stretched-link">Web Development</a></h4>
+                                <p>Our web development team creates dynamic and responsive websites that meet the latest industry standards. From simple landing pages to complex web applications, we focus on functionality, user experience, and innovation.</p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- App Development -->
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-phone-fill"></i>
+                                <h4><a href="#" class="stretched-link">App Development</a></h4>
+                                <p>Our app development expertise spans across multiple platforms, ensuring robust, user-friendly, and scalable mobile applications. Whether for iOS or Android, our apps cater to a diverse range of industries and user needs.</p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- Support/Technical Projects -->
+                            <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-headset"></i>
+                                <h4><a href="#" class="stretched-link">Support/Technical Projects</a></h4>
+                                <p>We offer comprehensive technical support services, providing troubleshooting, maintenance, and assistance to ensure that all projects run smoothly and efficiently.</p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- Infrastructure Management -->
+                            <!-- <div class="col-md-6 icon-box position-relative">
+                                <i class="bi bi-server"></i>
+                                <h4><a href="#" class="stretched-link">Infrastructure Management</a></h4>
+                                <p>Our infrastructure management services cover all aspects of IT infrastructure, including network administration, server management, and cloud services. We aim to ensure system stability, security, and efficiency for all
+                                    operations.
+                                </p>
+                            </div> -->
+                            <!-- Icon-Box -->
+
+                        </div>
+                    </div>
+                    <div class="col-xl-6" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Single Image Section -->
+                        <div class="image-container">
+                            <img src="https://t3.ftcdn.net/jpg/01/66/72/88/360_F_166728814_vCfWKOcbU7zhSqZI31KyI9nXzDzqAHNv.jpg" class="d-block w-100" alt="IT-related Image">
+                        </div>
+                        <!-- End Single Image Section -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Information Technology Section -->
+
+
+        <!-- ITES Section -->
+        <section id="ites" class="about ites section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>ITES</h2>
+                <p><span>Learn More</span> <span class="description-title">ITES<br></span></p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-xl-12" data-aos="fade-up" data-aos-delay="200">
+                        <div class="row gy-4">
+
+                            <!-- Customer Service Representative -->
+                            <div class="col-md-4 icon-box position-relative">
+                                <i class="bi bi-chat-dots-fill"></i>
+                                <h4><a href="#" class="stretched-link">Customer
+                                                Service Representative</a></h4>
+                                <p>Our dedicated customer service representatives are skilled in handling customer inquiries and concerns with efficiency and professionalism, providing excellent support across all communication channels.
+                                </p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- Knowledge Process Outsourcing (KPO) -->
+                            <div class="col-md-4 icon-box position-relative">
+                                <i class="bi bi-bar-chart-fill"></i>
+                                <h4><a href="#" class="stretched-link">Knowledge
+                                                Process Outsourcing
+                                                (KPO)</a></h4>
+                                <p>We offer high-level knowledge process outsourcing services, where our specialized teams handle data-driven and strategic tasks, allowing businesses to focus on core operations.
+                                </p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- Business Process Outsourcing (BPO) -->
+                            <div class="col-md-4 icon-box position-relative">
+                                <i class="bi bi-telephone-fill"></i>
+                                <h4><a href="#" class="stretched-link">Business
+                                                Process Outsourcing
+                                                (BPO)</a></h4>
+                                <p>Our BPO services include international voice (inbound/outbound), domestic voice, non-voice, semi-voice, chat, and email support. We provide end-to-end solutions that help businesses improve customer service and operational
+                                    efficiency.
+                                </p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- Human Resources -->
+                            <div class="col-md-4 icon-box position-relative">
+                                <i class="bi bi-people-fill"></i>
+                                <h4><a href="#" class="stretched-link">Human
+                                                Resources</a></h4>
+                                <p>Our HR team ensures that we recruit, train, and manage a talented workforce. We are committed to fostering a positive work environment and developing effective human capital strategies.</p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- Marketing/Sales -->
+                            <div class="col-md-4 icon-box position-relative">
+                                <i class="bi bi-graph-up-arrow"></i>
+                                <h4><a href="#" class="stretched-link">Marketing/Sales</a></h4>
+                                <p>Our marketing and sales team focuses on customer acquisition and business development. By utilizing modern tools and strategies, we drive growth and maximize revenue potential.
+                                </p>
+                            </div>
+                            <!-- Icon-Box -->
+
+                            <!-- End-to-End Revenue Cycle Management -->
+                            <div class="col-md-4 icon-box position-relative">
+                                <i class="bi bi-cash-stack"></i>
+                                <h4><a href="#" class="stretched-link">End-to-End
+                                                Revenue Cycle
+                                                Management</a></h4>
+                                <p>We deliver end-to-end revenue cycle management, from patient registration and billing to collections. Our approach ensures seamless financial operations, driving efficiency and revenue growth.
+                                </p>
+                            </div>
+                            <!-- Icon-Box -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /ITES Section -->
+
+        <!-- Training and Placement Section -->
+        <section id="training-placement" class="training-placement section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Training and Placement</h2>
+                <p><span>Explore Our</span> <span class="description-title">Professional Training Programs</span></p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4">
+                    <!-- Java Fullstack Development -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100">
+                            <img src="https://www.intel.com/content/dam/develop/public/us/en/images/logos/logo-java-16x9.png.rendition.intel.web.576.324.png?text=Java+Fullstack" class="card-img-top" alt="Java Fullstack Development">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">Java Fullstack Development</a></h4>
+                                <p>Master the complete Java stack, including Core Java, Spring Framework, Hibernate, and front-end technologies like HTML, CSS, Bootstrap, React.js, and MySQL for robust web applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Java Fullstack Card -->
+
+                    <!-- Python Development -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100">
+                            <img src="https://res.cloudinary.com/da66pcapb/image/upload/v1720182986/JAVA_300_x_200_px_xx5ccs.jpg?text=Python+Development" class="card-img-top" alt="Python Development">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">Python Development</a></h4>
+                                <p>Gain expertise in Python programming with hands-on experience in Django, Jupyter Notebook, and comprehensive knowledge of web hosting concepts to build scalable applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Python Development Card -->
+
+                    <!-- Web Design & Development -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100">
+                            <img src="https://media.istockphoto.com/id/1305999733/photo/web-design-desktop.jpg?s=612x612&w=0&k=20&c=mdGnzSrhUGijPuXHR3vA_hrQyshToudcJc8A50L0a9I=" class="card-img-top" alt="Web Design & Development">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">Web Design & Development</a></h4>
+                                <p>Learn the essentials of web design, covering HTML, CSS, JavaScript, jQuery, Bootstrap, and form handling techniques, including animated elements and payment gateway integration.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Web Design Card -->
+
+                    <!-- ASP.NET Development -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card h-100">
+                            <img src="https://media.licdn.com/dms/image/D4D12AQHSL-CSf2t6dQ/article-cover_image-shrink_600_2000/0/1696230420671?e=2147483647&v=beta&t=xbUValjUs_XTENFxFrL_IRnyTzdXQONDW3jKK5VVJpQ" class="card-img-top" alt="ASP.NET Development">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">ASP .NET Development</a></h4>
+                                <p>Specialize in ASP.NET for developing enterprise-level web applications, focusing on MVC architecture, C#, and .NET Core for building scalable and secure software solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End ASP.NET Card -->
+
+                    <!-- Data Science -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card h-100">
+                            <img src="https://c8.alamy.com/comp/2C4DNBF/finger-touching-tablet-with-web-technology-icons-and-data-science-inscription-web-technology-concept-2C4DNBF.jpg?text=Data+Science" class="card-img-top" alt="Data Science">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">Data Science</a></h4>
+                                <p>Dive deep into data science concepts, covering data visualization, statistical analysis, machine learning algorithms, and tools like R, Python, and SQL for deriving actionable insights.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Data Science Card -->
+
+                    <!-- Machine / Deep Learning -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card h-100">
+                            <img src="https://store.hp.com/app/assets/images/uploads/prod/machine-learning-and-deep-learning-101-hero1532047284210.jpg?text=Machine+Learning" class="card-img-top" alt="Machine / Deep Learning">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">Machine / Deep Learning</a></h4>
+                                <p>Explore AI technologies and build intelligent systems using supervised and unsupervised learning models, neural networks, TensorFlow, and other advanced deep learning frameworks.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Machine Learning Card -->
+
+                    <!-- App Development -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="700">
+                        <div class="card h-100">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbOPatzShJ7V4cwUMXnGbz6xmX16hpkUGIew&s?text=App+Development" class="card-img-top" alt="App Development">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">App Development</a></h4>
+                                <p>Gain skills in Android, iOS, React Native, and Hybrid Apps development to create versatile mobile applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End App Development Card -->
+
+                    <!-- Additional Image Card for Empty Space -->
+                    <div class="col-xl-8 col-md-12 d-flex" data-aos="fade-up" data-aos-delay="800">
+                        <img src="https://techgenies.com/wp-content/uploads/2023/09/programming-languages-for-software-development.png?text=Your+Image+Here" class="card-img-top" alt="Placeholder Image">
+                    </div>
+                    <!-- End Additional Image Card -->
+                </div>
+            </div>
+        </section>
+
+        <!-- End Training and Placement Section -->
+
+        <!-- Team Section -->
+        <section id="team" class="team section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Our Team</h2>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <!-- Team Member 1 -->
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="assets/img/team/team-02.jpg" class="img-fluid" alt>
+                                <div class="social">
+                                    <a href="#"><i
+                                                    class="bi bi-twitter-x"></i></a>
+                                    <a href="#"><i
+                                                    class="bi bi-facebook"></i></a>
+                                    <a href="#"><i
+                                                    class="bi bi-instagram"></i></a>
+                                    <a href="#"><i
+                                                    class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>RAMA KRISHNA PADAMATA</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member 1 -->
+
+                    <!-- Slider Section (with IT-related images) -->
+                    <div class="col-lg-6 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="10">
+                        <div id="it-carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- Slide 1 -->
+                                <div class="carousel-item active">
+                                    <img src="https://contentstatic.techgig.com/thumb/msid-104697630,width-800,height-600,resizemode-4/104697630.jpg" class="d-block w-100" alt="IT-related Image 1">
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="carousel-item">
+                                    <img src="https://www.shutterstock.com/shutterstock/photos/2284126663/display_1500/stock-photo-data-science-and-big-data-technology-scientist-computing-analysing-and-visualizing-complex-data-2284126663.jpg" class="d-block w-100" alt="IT-related Image 2">
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="carousel-item">
+                                    <img src="https://images.ctfassets.net/pdf29us7flmy/3ujJts90IWKEQdCcgEfqFD/06dbe9025d660a4e642de767a4d9c12a/revenue-cycle-management.png" class="d-block w-100" alt="IT-related Image 3">
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="carousel-item">
+                                    <img src="https://innovatureinc.com/wp-content/uploads/2023/06/3.jpg" class="d-block w-100" alt="IT-related Image 3">
+                                </div>
+                            </div>
+                            <!-- Carousel Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#it-carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"
+                                            aria-hidden="true"></span>
+                                        <span
+                                            class="visually-hidden">Previous</span>
+                                    </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#it-carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"
+                                            aria-hidden="true"></span>
+                                        <span
+                                            class="visually-hidden">Next</span>
+                                    </button>
+                        </div>
+                    </div>
+                    <!-- End Slider Section -->
+
+                    <!-- Team Member 2 -->
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="assets/img/team/team-01.jpg" class="img-fluid" alt>
+                                <div class="social">
+                                    <a href="https://x.com/AjitKumar159749?t=x6i658A2BQSN3AB_Gl6spg&s=09"><i
+                                                    class="bi bi-twitter-x"></i></a>
+                                    <a href="https://www.facebook.com/ajitkumar.mamillapalli?mibextid=ZbWKwL"><i
+                                                    class="bi bi-facebook"></i></a>
+                                    <a href="https://www.instagram.com/_ajitkumar.23?igsh=MnZyNzJnZTBvN2Zw"><i
+                                                    class="bi bi-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/ajitkumar-mamillapalli-95114b239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                                    class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>AJITKUMAR MAMILLAPALLI</h4>
+                                <span>Co-Founder</span>
+                                <span>Product Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member 2 -->
+
+                </div>
+            </div>
+        </section>
+        <!-- /Team Section -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
+                <p><span>Need Help?</span> <span class="description-title">Contact
+                                us<br></span></p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3863.0049708966794!2d79.99130637510389!3d14.484403985988292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDI5JzAzLjkiTiA3OcKwNTknMzguMCJF!5e0!3m2!1sen!2sin!4v1727151822958!5m2!1sen!2sin"
+                        frameborder="0" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- End Google Maps -->
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-4">
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>Plot no: 38,Kamashi nilayam, opp srinivasa brundavam, Padugupadu, Nellore-524137.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End Info Item -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+91 7382424433</p>
+                            </div>
+                        </div>
+                        <!-- End Info Item -->
+
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>info@ragloblasolutions.in</p>
+                            </div>
+                        </div>
+                        <!-- End Info Item -->
+                    </div>
+
+                    <div class="col-lg-8">
+                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!
+                                    </div>
+
+                                    <button type="submit">Send
+                                                Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Contact Form -->
+                </div>
+            </div>
+        </section>
+        <!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">RA Global
+                                    Solutions</span>
+                    </a>
+                    <p>RA Global Solutions is dedicated to delivering exceptional IT and KPO services. Our mission is to forge strong partnerships with clients, providing tailored solutions to drive their success.
+                    </p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">End-to-end Revenue Cycle
+                                        Management Services</a></li>
+                        <li><a href="#">International voice & Non
+                                        voice</a></li>
+                        <li><a href="#">Web development</a></li>
+                        <li><a href="#">App development</a></li>
+                        <li><a href="#">Product management</a></li>
+                        <li><a href="#">Consultancy</a></li>
+                        <li><a href="#">Internship program
+                                        trainee</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>Plot No: 38</p>
+                    <p>Kamashi Nilayam, Opposite Srinivasa Brundavam</p>
+                    <p>Padugupadu, Nellore 524137</p>
+                    <p class="mt-4"><strong>Phone:</strong> <span>+91
+                                    7382424433</span></p>
+                    <p><strong>Email:</strong>
+                        <span>info@raglobalsolutions.in</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">RA
+                            Global Solutions</strong>
+                <span>All Rights Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">Jeberson A J</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+                    class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+</html>
