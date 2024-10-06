@@ -104,6 +104,47 @@
             padding: 2px 5px;
             border-radius: 4px;
         }
+        
+        .bi {
+            color: red;
+        }
+        
+        .ites-list {
+            list-style-type: none;
+        }
+        
+        .ites-list li {
+            display: flex;
+            align-items: center;
+            /* Aligns the text vertically with the icon */
+            margin-bottom: 10px;
+            /* Adds spacing between each list item */
+        }
+        
+        .ites-list i {
+            font-size: 1.2em;
+            /* Increase icon size slightly */
+            margin-right: 8px;
+            /* Add spacing between the icon and the text */
+            color: red;
+            /* Ensure the red color is applied */
+        }
+        /* Custom class to remove list marker */
+        
+        .custom-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        /* Smaller icon size */
+        
+        .custom-icon {
+            font-size: 18px !important;
+            /* Increase this value as needed */
+            margin-right: 5px;
+            /* Adjust spacing between icon and text */
+            vertical-align: middle;
+            /* Align icons properly with the text */
+        }
     </style>
 </head>
 
@@ -400,7 +441,7 @@
                             <!-- Internal Projects -->
                             <div class="col-md-6 icon-box position-relative">
                                 <i class="bi bi-gear-fill"></i>
-                                <h4><a href="#" class="stretched-link">Internal Projects</a></h4>
+                                <h4><a href="#internal-projects" class="stretched-link">Internal Projects</a></h4>
                                 <p>We specialize in launching and managing our own internal projects, including applications like Billing Software Management, designed to streamline and optimize financial processes for businesses.</p>
                             </div>
                             <!-- Icon-Box -->
@@ -468,34 +509,166 @@
                 <div class="row gy-5">
                     <div class="col-xl-12" data-aos="fade-up" data-aos-delay="200">
                         <div class="row gy-4">
+                            <div class="col-md-12">
+                                <p>Information Technology Enabled Services (ITES) refer to the outsourcing of business processes that leverage information technology to deliver value to customers. ITES enables businesses to improve efficiency, reduce costs,
+                                    and enhance customer satisfaction.</p>
+                            </div>
+
+                            <!-- Benefits of ITES -->
+                            <div class="col-md-12">
+                                <h3>Benefits of ITES</h3>
+                                <ul class="ites-list">
+                                    <li><i class="bi bi-check-circle-fill"></i> Cost Savings: ITES helps businesses reduce operational costs and improve profitability.</li>
+                                    <li><i class="bi bi-clock-fill"></i> Increased Efficiency: ITES enables businesses to streamline processes, reduce cycle time, and improve productivity.</li>
+                                    <li><i class="bi bi-people-fill"></i> Access to Skilled Talent: ITES provides access to skilled and experienced professionals who can handle complex business processes.</li>
+                                    <li><i class="bi bi-graph-up-arrow"></i> Scalability: ITES enables businesses to scale up or down quickly to respond to changing market conditions.</li>
+                                    <li><i class="bi bi-lock-fill"></i> Enhanced Security: ITES providers invest heavily in security measures to ensure the confidentiality, integrity, and availability of customer data.</li>
+                                </ul>
+                            </div>
+
+                            <!-- ITES in Action -->
+                            <div class="col-md-12">
+                                <h3>ITES in Action</h3>
+                                <p>Our ITES services are designed to help businesses overcome common challenges and achieve their goals. Here are some examples of ITES in action:</p>
+                                <ul class="ites-list">
+                                    <li><i class="bi bi-headset"></i> IT Helpdesk: Our IT helpdesk services offer technical support, incident management, and problem resolution, ensuring minimal downtime and maximum productivity.</li>
+                                    <li><i class="bi bi-file-earmark-text-fill"></i> Data Annotation: We provide high-quality data annotation services, including text, image, and audio annotation, to support machine learning model development and training.</li>
+                                    <li><i class="bi bi-file-earmark-text-fill"></i> Content Moderation: Our content moderation services ensure that online platforms are safe and respectful, free from harmful or offensive content.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Healthcare ITES Services -->
+                            <div class="col-md-12">
+                                <h3>Healthcare ITES Services</h3>
+                                <p>We offer a range of ITES services specifically designed for the healthcare industry, including:</p>
+                                <ul class="ites-list">
+                                    <li><i class="bi bi-heart-pulse"></i> Clinical Enablement Services: Our clinical enablement services help healthcare providers improve patient outcomes and reduce costs.</li>
+                                    <li><i class="bi bi-person-check-fill"></i> Patient Access Services: Our patient access services ensure that patients receive timely and efficient care, while also improving patient satisfaction.</li>
+                                    <li><i class="bi bi-file-earmark-text-fill"></i> Business Office Services: Our business office services help healthcare providers manage their administrative tasks, including billing and insurance claims.</li>
+                                    <li><i class="bi bi-cash-stack"></i> ASP-RCM Solutions - Billing Solutions For Your Mental Health Practice: Our ASP-RCM solutions provide mental health practices with comprehensive billing and revenue cycle management services.</li>
+                                    <li><i class="bi bi-graph-up-arrow"></i> RCM Solutions for Varied Therapies: Our RCM solutions help healthcare providers manage their revenue cycle for various therapies, including physical, occupational, and speech therapy.</li>
+                                    <li><i class="bi bi-people-fill"></i> Human-Centric Healthcare Solutions: Our human-centric healthcare solutions focus on improving patient outcomes and satisfaction, while also reducing costs and improving operational
+                                        efficiency.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <hr style="color: red;" />
+                            <!-- Sub Section Title -->
+                            <div class="container section-title mb-4" data-aos="fade-up">
+                                <p><span class="description-title">Provider RCM and Clinical Enablement Services<br></span></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1 text-center">
+                                <h1>Sometimes, it’s not about what you save. It’s about all you stand to gain.</h1>
+                            </div>
+                            <div class="col-md-12">
+                                <p>Choosing a strategic partner shouldn’t be a question of cost alone but also value. It’s about dependability, security, and working with responsive, forward-thinking experts. Partnering with Omega Healthcare achieves all
+                                    three.
+                                </p>
+                                <p>
+                                    Our team of revenue cycle professionals and clinical experts, enabled by the Omega Digital Platform, empower providers to streamline operations, reduce costs, improve outcomes, and enhance the patient experience.
+                                </p>
+                            </div>
+
+                            <!-- Patient Access Services -->
+                            <div class="row">
+                                <div class="col-md-6 icon-box position-relative">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                    <h4><a href="#" class="stretched-link">Patient Access Services</a></h4>
+                                    <p>The health of your revenue cycle begins at Patient Access. And so does a positive patient experience. From the first patient encounter through payer reimbursement and patient payments, it all starts here with patient
+                                        access solutions enabled by ODP-CONNECT.</p>
+                                    <ul class="custom-list mt-3">
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Scheduling & Registration</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Insurance Eligibility & Benefits Verification</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Prior Authorizations</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Healthcare Call Center</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="https://www.unicomcorp.com/wp-content/uploads/2023/11/Efficient-Patient-Care-1030x579.jpg" alt="Patient Access Services" class="img-fluid">
+                                </div>
+                            </div>
+
+                            <!-- Mid-Revenue Cycle Services -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://media.licdn.com/dms/image/D4D12AQHZ95I340WdxA/article-cover_image-shrink_720_1280/0/1678882154141?e=2147483647&v=beta&t=GsTVJt_8TUtQeNDmxQyHawuA3q8PnHRP1WaIZXCOaTE" alt="Mid-Revenue Cycle Services" class="img-fluid">
+                                </div>
+                                <div class="col-md-6 icon-box position-relative">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                    <h4><a href="#" class="stretched-link">Mid-Revenue Cycle Services</a></h4>
+                                    <p>The quality of your mid-cycle processes significantly influences cash flow, days in accounts receivable (A/R), and your organization’s ability to meet value-based care requirements. By leveraging comprehensive analytics
+                                        and automated solutions like ODP-CODE, healthcare providers can enhance operational efficiency and improve accuracy in medical coding and billing practices. This results in fewer rejections and denials, leading
+                                        to faster, more reliable reimbursements. Moreover, optimizing these processes fosters better collaboration among clinical and administrative teams, ultimately contributing to improved patient outcomes and satisfaction.</p>
+                                    <ul class="custom-list mt-3">
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Medical Records Coding</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Chart Audit</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Charge Capture</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Clinical Documentation Improvement</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Registry Services</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Business Office Services -->
+                            <div class="row">
+                                <div class="col-md-6 icon-box position-relative">
+                                    <i class="bi bi-cash-stack"></i>
+                                    <h4><a href="#" class="stretched-link">Business Office Services</a></h4>
+                                    <p>The health of your bottom line is in direct correlation with the health of your business office practices. From claims submission to payment posting and reconciliation, to accounts receivable and underpayments recovery—seamless
+                                        processes enabled by ODP-COLLECT ensure you collect every dollar you’re owed.</p>
+                                    <ul class="custom-list mt-3">
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Claims Management & Billing</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Payment Posting & Reconciliation</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>A/R Management & Collections</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Denials & Appeals Management</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>Underpayment Analysis & Recovery</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i>WhiteSpace Analytics</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="https://accordias.com/wp-content/uploads/2020/10/top-bg-image-business-ofice.jpg" alt="Business Office Services" class="img-fluid">
+                                </div>
+                            </div>
+
+                            <!-- Clinical Enablement Services -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="https://www.excelra.com/wp-content/uploads/2023/01/our-clinical-data-services.jpg" alt="Clinical Enablement Services" class="img-fluid">
+                                </div>
+                                <div class="col-md-6 icon-box position-relative">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                    <h4><a href="#" class="stretched-link">Clinical Enablement Services</a></h4>
+                                    <p>Quality outcomes require care that extends beyond the exam room and robust data analytics. Enhancing care quality and continuity throughout the continuum can improve outcomes and increase patient satisfaction. Moreover,
+                                        healthcare organizations need sustainable, scalable solutions to support their clinical research and bioinformatics needs. Partnering with Omega Healthcare is the answer.</p>
+                                    <ul class="custom-list mt-3">
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Remote Patient Monitoring</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Telephone & Message Triage</li>
+                                        <li><i class="bi bi-check-circle-fill custom-icon text-danger"></i> Customer Contact Center</li>
+                                    </ul>
+                                </div>
+                            </div>
 
                             <!-- Customer Service Representative -->
                             <div class="col-md-4 icon-box position-relative">
-                                <i class="bi bi-chat-dots-fill"></i>
-                                <h4><a href="#" class="stretched-link">Customer
-                                                Service Representative</a></h4>
-                                <p>Our dedicated customer service representatives are skilled in handling customer inquiries and concerns with efficiency and professionalism, providing excellent support across all communication channels.
-                                </p>
+                                <i class="bi bi-chat -dots-fill"></i>
+                                <h4><a href="#" class="stretched-link">Customer Service Representative</a></h4>
+                                <p>Our dedicated customer service representatives are skilled in handling customer inquiries and concerns with efficiency and professionalism, providing excellent support across all communication channels.</p>
                             </div>
                             <!-- Icon-Box -->
 
                             <!-- Knowledge Process Outsourcing (KPO) -->
                             <div class="col-md-4 icon-box position-relative">
                                 <i class="bi bi-bar-chart-fill"></i>
-                                <h4><a href="#" class="stretched-link">Knowledge
-                                                Process Outsourcing
-                                                (KPO)</a></h4>
-                                <p>We offer high-level knowledge process outsourcing services, where our specialized teams handle data-driven and strategic tasks, allowing businesses to focus on core operations.
-                                </p>
+                                <h4><a href="#" class="stretched-link">Knowledge Process Outsourcing (KPO)</a></h4>
+                                <p>We offer high-level knowledge process outsourcing services, where our specialized teams handle data-driven and strategic tasks, allowing businesses to focus on core operations.</p>
                             </div>
                             <!-- Icon-Box -->
 
                             <!-- Business Process Outsourcing (BPO) -->
                             <div class="col-md-4 icon-box position-relative">
                                 <i class="bi bi-telephone-fill"></i>
-                                <h4><a href="#" class="stretched-link">Business
-                                                Process Outsourcing
-                                                (BPO)</a></h4>
+                                <h4><a href="#" class="stretched-link">Business Process Outsourcing (BPO)</a></h4>
                                 <p>Our BPO services include international voice (inbound/outbound), domestic voice, non-voice, semi-voice, chat, and email support. We provide end-to-end solutions that help businesses improve customer service and operational
                                     efficiency.
                                 </p>
@@ -505,8 +678,7 @@
                             <!-- Human Resources -->
                             <div class="col-md-4 icon-box position-relative">
                                 <i class="bi bi-people-fill"></i>
-                                <h4><a href="#" class="stretched-link">Human
-                                                Resources</a></h4>
+                                <h4><a href="#" class="stretched-link">Human Resources</a></h4>
                                 <p>Our HR team ensures that we recruit, train, and manage a talented workforce. We are committed to fostering a positive work environment and developing effective human capital strategies.</p>
                             </div>
                             <!-- Icon-Box -->
@@ -515,19 +687,15 @@
                             <div class="col-md-4 icon-box position-relative">
                                 <i class="bi bi-graph-up-arrow"></i>
                                 <h4><a href="#" class="stretched-link">Marketing/Sales</a></h4>
-                                <p>Our marketing and sales team focuses on customer acquisition and business development. By utilizing modern tools and strategies, we drive growth and maximize revenue potential.
-                                </p>
+                                <p>Our marketing and sales team focuses on customer acquisition and business development. By utilizing modern tools and strategies, we drive growth and maximize revenue potential.</p>
                             </div>
                             <!-- Icon-Box -->
 
                             <!-- End-to-End Revenue Cycle Management -->
                             <div class="col-md-4 icon-box position-relative">
                                 <i class="bi bi-cash-stack"></i>
-                                <h4><a href="#" class="stretched-link">End-to-End
-                                                Revenue Cycle
-                                                Management</a></h4>
-                                <p>We deliver end-to-end revenue cycle management, from patient registration and billing to collections. Our approach ensures seamless financial operations, driving efficiency and revenue growth.
-                                </p>
+                                <h4><a href="#" class="stretched-link">End-to-End Revenue Cycle Management</a></h4>
+                                <p>We deliver end-to-end revenue cycle management, from patient registration and billing to collections. Our approach ensures seamless financial operations, driving efficiency and revenue growth.</p>
                             </div>
                             <!-- Icon-Box -->
                         </div>
@@ -632,16 +800,129 @@
                     </div>
                     <!-- End App Development Card -->
 
-                    <!-- Additional Image Card for Empty Space -->
-                    <div class="col-xl-8 col-md-12 d-flex" data-aos="fade-up" data-aos-delay="800">
-                        <img src="https://techgenies.com/wp-content/uploads/2023/09/programming-languages-for-software-development.png?text=Your+Image+Here" class="card-img-top" alt="Placeholder Image">
+                    <!-- DevOps -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100">
+                            <img src="https://t4.ftcdn.net/jpg/03/96/98/33/360_F_396983381_AcuGFHQbNn7D9eercXFpOecN7d7B5F66.jpg?text=DevOps+Training" class="card-img-top" alt="DevOps">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">DevOps</a></h4>
+                                <p>Master continuous integration, continuous delivery (CI/CD), automation, containerization using Docker and Kubernetes, and cloud-based tools to accelerate the software development lifecycle.</p>
+                            </div>
+                        </div>
                     </div>
+                    <!-- End DevOps Card -->
+
+                    <!-- Banking Operations Training Program -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card h-100">
+                            <img src="https://cdn-kz.kursiv.media/wp-content/uploads/2024/02/2-15-1536x864-1-1024x576.jpg" class="card-img-top" alt="Banking Operations">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">Banking Operations Training Program</a></h4>
+                                <p>Gain industry-specific knowledge in banking operations, covering core topics like financial products, risk management, and back-office operations for a career in the finance sector.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Banking Operations Training Program Card -->
+
+                    <!-- End-to-End Revenue Cycle Management -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                        <div class="card h-100">
+                            <img src="https://cdn.buttercms.com/YagtZ1oHSHOVA7bv2bzw?h=150&text=Revenue+Cycle+Management" class="card-img-top" alt="Revenue Cycle Management">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">End-to-End Revenue Cycle Management</a></h4>
+                                <p>Develop expertise in managing the complete revenue cycle, focusing on medical billing, coding, claims processing, and RCM software for healthcare organizations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Revenue Cycle Management Card -->
+
+                    <!-- International Voice / Non-Voice Training Program -->
+                    <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card h-100">
+                            <img src="https://www.jindalx.com/wp-content/uploads/2023/06/voice-vs-non-voice-process.jpg?w=1380&text=International+Voice+Training" class="card-img-top" alt="International Voice and Non-Voice Training">
+                            <div class="card-body">
+                                <h4><a href="#" class="stretched-link">International Voice, Non-Voice & Semi Voice Training Program</a></h4>
+                                <p>Enhance communication skills, process training, and customer handling techniques for voice and non-voice processes, preparing you for global BPO careers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End International Voice Training Program Card -->
+
+                    <!-- Additional Image Card for Empty Space -->
+                    <!-- <div class="col-xl-8 col-md-12 d-flex" data-aos="fade-up" data-aos-delay="800">
+                        <img src="https://techgenies.com/wp-content/uploads/2023/09/programming-languages-for-software-development.png?text=Your+Image+Here" class="card-img-top" alt="Placeholder Image">
+                    </div> -->
                     <!-- End Additional Image Card -->
                 </div>
             </div>
         </section>
-
         <!-- End Training and Placement Section -->
+
+        <section id="internal-projects" class="internal-projects services section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Internal Projects</h2>
+                <p><span>Explore Our</span> <span class="description-title">Internal Projects</span></p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0">
+                                <img src="https://mybillbook.in/s/wp-content//uploads/2021/09/restaurant-pos-software.jpg" alt="Restaurant Billing Software" class="img-fluid rounded-circle border" style="width: 150px; height: 150px;">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="title"><a href="#" class="stretched-link">Restaurant Billing Software</a></h4>
+                                <p class="description">A comprehensive billing software designed to streamline the billing process in restaurants, enhancing customer service and operational efficiency.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0">
+                                <img src="https://www.beaconadvisors.com/wp-content/uploads/2023/06/Supermarket.jpg" alt="Marts & Groceries Stores" class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="title"><a href="#" class="stretched-link">Marts & Groceries Stores</a></h4>
+                                <p class="description">Billing and inventory management system tailored for marts and grocery stores, ensuring accurate stock tracking and quick transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0">
+                                <img src="https://www.lawinsider.in/wp-content/uploads/2022/06/Pesticide-Management-BILL-LAW-INSIDER.jpg" alt="Pesticides Billing Management" class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="title"><a href="#" class="stretched-link">Pesticides Billing Management</a></h4>
+                                <p class="description">An effective solution for managing pesticide sales and billing, ensuring compliance with regulations and easy tracking of transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0">
+                                <img src="https://www.techugo.com/blog/wp-content/uploads/2023/11/Revolutionizing-Pharmacy-Management-Exploring-the-Impact-of-Pharmacy-Billing-Software.png" alt="Pharma Billing Management" class="img-fluid rounded-circle" style="width: 150px; height: 150px;">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="title"><a href="#" class="stretched-link">Pharma Billing Management</a></h4>
+                                <p class="description">A specialized billing management system for pharmacies, enabling efficient handling of prescriptions and patient billing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Service Item -->
+                </div>
+            </div>
+        </section>
 
         <!-- Team Section -->
         <section id="team" class="team section">

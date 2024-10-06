@@ -2683,3 +2683,12 @@ section,
         transform: rotate(360deg);
     }
 }
+
+.service-item .icon img {
+    width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+    /* Adjust size as needed */
+    object-fit: cover;
+    /* Ensure images cover the circle */
+}
